@@ -38,4 +38,4 @@ This is a simple implementation of the classic Tic-Tac-Toe game in Python. Two p
 2. Open a terminal or command prompt and navigate to the project directory.
 3. Run the game using the following command:
 
-```bash
+
