@@ -37,5 +37,5 @@ This is a simple implementation of the classic Tic-Tac-Toe game in Python. Two p
 1. Clone this repository to your local machine.
 2. Open a terminal or command prompt and navigate to the project directory.
 3. Run the game using the following command:
-
+python3 main.py
 
