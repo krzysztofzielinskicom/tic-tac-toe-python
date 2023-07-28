@@ -71,4 +71,5 @@ def main_game(xo,turns,list_cordinates):# main cod  for games and use def add it
                 main_game(xo, turns, list_cordinates)
     print("Draw")
     sys.exit()
-main_game(xo,turns,list_cordinates)
+if __name__ == "__main__":
+    main_game(xo,turns,list_cordinates)
