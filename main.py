@@ -33,7 +33,7 @@ def print_result_game(): #print result of array items fom list_cordinatins
 def main_game(xo,turns,list_cordinates):# main cod  for games and use def add items , check result and print game
     print_result_game()
     while turns < 9 :
-        print(f'Turns: {turns +1}')
+        print(f'Round: {turns +1}')
         if xo == "O":
             xy = input("O Moves, input coordinates xy: ")
             if xy[0]== "0" or xy[0]== "1" or xy[0]== "2" :
@@ -43,7 +43,7 @@ def main_game(xo,turns,list_cordinates):# main cod  for games and use def add it
                     check_result_game(list_cordinates,xo)
                     print_result_game()
                     xo = "X"
-                    print(f'Turns: {turns}')
+                    print(f'Turns of X: {turns}')
                     turns += 1
                 else:
                     print("Incorrect format of coordinate Y")
@@ -61,7 +61,7 @@ def main_game(xo,turns,list_cordinates):# main cod  for games and use def add it
                     check_result_game(list_cordinates, xo)
                     print_result_game()
                     xo = "O"
-                    print(f'Turns: {turns}')
+                    print(f'Turns of O: {turns}')
                     turns += 1
                 else:
                     print("Incorrect format of coordinate Y")
