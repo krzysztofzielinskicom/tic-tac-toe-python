@@ -22,7 +22,7 @@ def check_result_game(list_cordinates,xo):
         print(f"Wins {xo}")
         sys.exit(0)
 def print_result_game(): #print result of array items fom list_cordinatins
-    os.system(clea)
+    os.system('cls')
     print("---0---1---2--X")
     print("0|",list_cordinates[0][0],"|",list_cordinates[0][1],"|",list_cordinates[0][2],"|")
     print("--------------")
